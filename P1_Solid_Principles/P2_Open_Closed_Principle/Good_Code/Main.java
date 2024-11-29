@@ -1,7 +1,7 @@
-package P1_Solid_Principles.Open_Closed_Principle.Good_Code;
+package P1_Solid_Principles.P2_Open_Closed_Principle.Good_Code;
 
-import P1_Solid_Principles.Open_Closed_Principle.Good_Code.operators.impl.AdditionOperation;
-import P1_Solid_Principles.Open_Closed_Principle.Good_Code.operators.impl.SubtractionOperation;
+import P1_Solid_Principles.P2_Open_Closed_Principle.Good_Code.operators.impl.AdditionOperation;
+import P1_Solid_Principles.P2_Open_Closed_Principle.Good_Code.operators.impl.SubtractionOperation;
 
 public class Main {
     public static void main(String[] args) {

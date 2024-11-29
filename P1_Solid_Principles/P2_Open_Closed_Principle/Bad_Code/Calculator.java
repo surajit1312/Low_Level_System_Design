@@ -1,4 +1,4 @@
-package P1_Solid_Principles.Open_Closed_Principle.Bad_Code;
+package P1_Solid_Principles.P2_Open_Closed_Principle.Bad_Code;
 
 public class Calculator {
     /**

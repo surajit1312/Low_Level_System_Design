@@ -1,6 +1,6 @@
-package P1_Solid_Principles.Open_Closed_Principle.Good_Code.operators.impl;
+package P1_Solid_Principles.P2_Open_Closed_Principle.Good_Code.operators.impl;
 
-import P1_Solid_Principles.Open_Closed_Principle.Good_Code.operators.IOperation;
+import P1_Solid_Principles.P2_Open_Closed_Principle.Good_Code.operators.IOperation;
 
 public class AdditionOperation implements IOperation {
 
