@@ -1,10 +1,10 @@
-package P1_Solid_Principles.Single_Responsibility_Principle.Good_Code;
+package P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code;
 
 import java.math.BigDecimal;
 
-import P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.account.Account;
-import P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.operations.AccountOperations;
-import P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.operations.TransactionOperations;
+import P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.account.Account;
+import P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.operations.AccountOperations;
+import P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.operations.TransactionOperations;
 
 public class Main {
     public static void main(String[] args) {

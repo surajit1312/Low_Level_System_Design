@@ -1,8 +1,8 @@
-package P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.operations;
+package P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.operations;
 
 import java.math.BigDecimal;
 
-import P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.account.Account;
+import P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.account.Account;
 
 public class TransactionOperations {
     private AccountOperations accountOperations;

@@ -1,4 +1,4 @@
-package P1_Solid_Principles.Single_Responsibility_Principle.Good_Code.account;
+package P1_Solid_Principles.P1_Single_Responsibility_Principle.Good_Code.account;
 
 import java.math.BigDecimal;
 
