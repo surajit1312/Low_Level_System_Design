@@ -1,0 +1,166 @@
+<mxfile host="65bd71144e">
+    <diagram id="-pYwBKmwSmJ437Ohy2ye" name="Page-1">
+        <mxGraphModel dx="907" dy="417" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Desktop" style="swimlane;strokeWidth=2;strokeColor=#005700;fillColor=#008a00;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="35" y="90" width="227" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;+ brand: String&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry y="23" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;b&gt;+ processor: String&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="12" y="42" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;b&gt;+ ram: String&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="-6" y="60" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;+ storage: String&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="5" y="79" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;b&gt;+ hasGPU: boolean&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="12" y="98" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;b&gt;+ hasBluetooth: boolean&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="12" y="117" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;b&gt;+ showDesktopSpecs(void): void&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="2">
+                    <mxGeometry x="12" y="160" width="199" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="endArrow=none;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1" source="2" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="250" as="sourcePoint"/>
+                        <mxPoint x="380" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;MesloLGS NF&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="431" y="203" width="18" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="DesktopBuilder" style="swimlane;strokeWidth=2;strokeColor=#BD7000;fillColor=#f0a30a;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="398" y="8" width="234" height="249" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b&gt;# desktop: Desktop&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry y="23" width="148" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;+ buildBrand(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="9" y="60" width="197" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;b&gt;+ buildProcessor(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="5" y="85" width="228" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b&gt;+ buildRAM(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="14" y="109" width="181" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;+ buildStorage(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="14" y="136" width="198" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;+ buildGPU(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="5" y="162" width="199" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;b&gt;+ buildBluetooth(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="5" y="187" width="229" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;+ getDesktop(): Desktop&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="14">
+                    <mxGeometry x="-25" y="211" width="229" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;strokeColor=#000000;strokeWidth=2;fontColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="397" y="69" as="sourcePoint"/>
+                        <mxPoint x="632" y="69" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=diamond;html=1;strokeColor=#CC00CC;strokeWidth=3;fontColor=#000000;endSize=10;exitX=0.997;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;fillColor=#008a00;" edge="1" parent="1" source="2" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="415" y="136" as="sourcePoint"/>
+                        <mxPoint x="515" y="136" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="Has A" style="edgeLabel;resizable=0;align=center;verticalAlign=middle;strokeColor=#080808;strokeWidth=2;fontColor=#000000;fillColor=#FFFFFF;labelBorderColor=default;labelBackgroundColor=#FFFFFF;html=1;fontStyle=1" connectable="0" vertex="1" parent="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: &amp;quot;MesloLGS NF&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="328" y="579" width="18" height="33" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="HPDesktopBuilder" style="swimlane;strokeWidth=2;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="35" y="356" width="234" height="187" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;b&gt;+ buildBrand(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry x="4" y="28" width="197" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;b&gt;+ buildProcessor(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry y="53" width="228" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;b&gt;+ buildRAM(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry x="9" y="77" width="181" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;b&gt;+ buildStorage(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry x="9" y="104" width="198" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;b&gt;+ buildGPU(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry y="130" width="199" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;b&gt;+ buildBluetooth(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="32">
+                    <mxGeometry y="155" width="229" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="DellDesktopBuilder" style="swimlane;strokeWidth=2;strokeColor=#C73500;fillColor=#fa6800;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="336" y="356" width="234" height="187" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;b&gt;+ buildBrand(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry x="4" y="28" width="197" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;+ buildProcessor(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry y="53" width="228" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;b&gt;+ buildRAM(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry x="9" y="77" width="181" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;b&gt;+ buildStorage(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry x="9" y="104" width="198" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;b&gt;+ buildGPU(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry y="130" width="199" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;b&gt;+ buildBluetooth(): DesktopBuilder&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="42">
+                    <mxGeometry y="155" width="229" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="endArrow=block;html=1;strokeColor=#3700CC;strokeWidth=3;fontColor=#000000;endSize=10;fillColor=#6a00ff;dashed=1;endFill=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="147" y="355" as="sourcePoint"/>
+                        <mxPoint x="499" y="256" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="&lt;b&gt;Implements&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;labelBorderColor=default;strokeColor=#080808;strokeWidth=2;fontColor=#000000;fillColor=#FFFFFF;" connectable="0" vertex="1" parent="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=block;html=1;strokeColor=#3700CC;strokeWidth=3;fontColor=#000000;endSize=10;fillColor=#6a00ff;dashed=1;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="644" y="349" as="sourcePoint"/>
+                        <mxPoint x="504" y="256" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="&lt;b&gt;Implements&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;labelBorderColor=default;strokeColor=#080808;strokeWidth=2;fontColor=#000000;fillColor=#FFFFFF;" connectable="0" vertex="1" parent="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="DesktopDirector" style="swimlane;strokeWidth=2;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="592" y="356" width="244" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;b&gt;+ buildDesktop(DesktopBuilder): Desktop&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontColor=#000000;" vertex="1" parent="53">
+                    <mxGeometry y="23" width="244" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="" style="endArrow=open;html=1;strokeColor=#B20000;strokeWidth=3;fontColor=#000000;endSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.998;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;endFill=0;" edge="1" parent="1" source="53" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="725" y="350" as="sourcePoint"/>
+                        <mxPoint x="729" y="231" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="718" y="21"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="&lt;b&gt;Is Associated To&lt;/b&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=#FFFFFF;labelBorderColor=default;strokeColor=#080808;strokeWidth=2;fontColor=#000000;fillColor=#FFFFFF;" connectable="0" vertex="1" parent="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
