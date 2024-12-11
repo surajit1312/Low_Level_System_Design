@@ -190,6 +190,12 @@ public DesktopBuilder setHasWaterCooling(boolean hasWaterCooling) {
 
 ---
 
+## **UML Diagram**
+
+![UML_Diagram](https://github.com/user-attachments/assets/6482087f-afba-4064-a9ee-c077da5f1d61)
+
+---
+
 ## **Conclusion**
 
 The Builder Design Pattern provides a structured, flexible, and scalable way to construct objects, particularly when the objects are complex or have optional configurations.
