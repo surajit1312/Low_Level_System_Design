@@ -118,6 +118,11 @@ public class WithPrototypePattern {
     }
 }
 ```
+---
+
+## **UML Diagram**
+
+![UML_Diagram](https://github.com/user-attachments/assets/dd4a296f-22e8-46d3-a674-a0d308508781)
 
 ---
 
