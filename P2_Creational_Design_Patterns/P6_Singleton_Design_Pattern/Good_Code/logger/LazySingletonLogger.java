@@ -12,7 +12,7 @@ public class LazySingletonLogger {
     // only 1 new object can be created if this.logger is null
     public static LazySingletonLogger getInstance() {
         if (logger == null) {
-            logger = new LazySingletonLogger("Global Logger");
+            logger = new LazySingletonLogger("Lazy Global Logger");
         }
         return logger;
     }

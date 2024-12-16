@@ -2,7 +2,7 @@ package P2_Creational_Design_Patterns.P6_Singleton_Design_Pattern.Good_Code.logg
 
 public class EagerSingletonLogger {
     private String name;
-    private static EagerSingletonLogger logger = new EagerSingletonLogger("Global Logger");
+    private static EagerSingletonLogger logger = new EagerSingletonLogger("Eager Global Logger");
 
     // restrict access to constructor outside so that no more objects can be created
     private EagerSingletonLogger(String name) {
