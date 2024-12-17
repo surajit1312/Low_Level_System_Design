@@ -187,6 +187,11 @@ public class WithObserverPattern {
     }
 }
 ```
+---
+
+### **UML Diagram**
+
+![UML_Diagram](https://github.com/user-attachments/assets/5de1ec14-2222-460a-97a0-edfc30297f86)
 
 ---
 
