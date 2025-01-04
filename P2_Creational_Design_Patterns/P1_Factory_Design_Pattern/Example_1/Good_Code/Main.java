@@ -1,8 +1,8 @@
-package P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Good_Code.Example_1;
+package P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Example_1.Good_Code;
 
-import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Good_Code.Example_1.cab.ICab;
-import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Good_Code.Example_1.cab.constants.CabType;
-import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Good_Code.Example_1.cab.factory.CabFactory;
+import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Example_1.Good_Code.cab.ICab;
+import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Example_1.Good_Code.cab.constants.CabType;
+import P2_Creational_Design_Patterns.P1_Factory_Design_Pattern.Example_1.Good_Code.cab.factory.CabFactory;
 
 public class Main {
     public static void main(String[] args) {
